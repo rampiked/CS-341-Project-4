@@ -16,5 +16,8 @@ These are the command line menu options:
 or x to exit the program."
 
 Brief overview:
-main.py takes user input (for what they want to do with the database) and passes it to the relevant function in objecttier.py. objecttier.py will either execute a simple SQL query,
-or call a function in datatier.py that will run a more complicated SQL query. In the end, objecttier.py will return the appropriate values to main, and main will print them to the user.
+main.py takes user input (for what they want to do with the database) and passes it to the relevant function in objecttier.py. objecttier.py will create a SQL query,
+then datatier.py will execute the SQL query. In the end, objecttier.py will return the appropriate values to main, and main will print them to the user.
+
+Database heuristics:
+Each movie database contains seven tables, which all have unique column names. If you are curious about particular fields, or the actual SQL queries, look at the functions in objecttier.py.
