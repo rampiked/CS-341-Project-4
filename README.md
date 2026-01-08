@@ -8,10 +8,15 @@ then search or modify the database by converting user menu selections and string
 These are the command line menu options:
 
  "1. Print general statistics about the database
+ 
   2. Find movies matching a pattern for the name
+     
   3. Find details of a movie by movie ID
+     
   4. Top N movies by average rating, with a minimum number of reviews
+     
   5. Add a new review for a movie
+     
   6. Set the tagline of a movie"
 
 Brief overview:
