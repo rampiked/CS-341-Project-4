@@ -7,7 +7,7 @@ then search or modify the database by converting user menu selections and string
 
 These are the command line menu options:
 
-  "1. Print general statistics about the database
+   "1. Print general statistics about the database
  
   2. Find movies matching a pattern for the name
      
