@@ -2,9 +2,6 @@
 # objecttier.py
 # Builds Movie-related objects from data retrieved through 
 # the data tier.
-#
-# Original author: Ellen Kidane and Prof. Joe Hummel
-#
 import datatier
 
 ##################################################################
