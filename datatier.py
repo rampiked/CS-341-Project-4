@@ -1,9 +1,6 @@
 #
 # datatier.py
 # Executes SQL queries against the given database.
-#
-# Original author: Ellen Kidane and Prof. Joe Hummel
-#
 import sqlite3
 
 
